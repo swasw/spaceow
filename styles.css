@@ -110,7 +110,7 @@ body {
     font-size: 50px;
     font-weight: bold;
     transition: color 1s,;
-    color:linear-gradient(to right, #C65BB5, #8C81D2)
+    color: aqua;
 }
 .jwst_text:hover{
     color: white;
