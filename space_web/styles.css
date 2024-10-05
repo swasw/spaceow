@@ -1,0 +1,67 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.taskbar {
+    width: 100%;           /* Full width */
+    height: 60px;         /* Customize height */
+    /* background-color: #070816;  */
+    background-image: url('/assets/space.jpg');
+    color: rgb(255, 255, 255); /* Text color */
+    display: flex;        /* Enable flexbox */
+    justify-content: space-between; 
+    align-items: center;  /* Center items vertically */
+    /* padding: 0 20px;      */
+}
+
+.pict {
+    /* background-color: rgb(245, 6, 77); */
+    padding-left: 2%;
+    display: flex;
+    align-items: center; /* Center items vertically within pict */
+}
+
+.buttonss {
+    /* background-color: blueviolet; */
+    /* align-self: center; Center the button vertically */
+    /* margin: auto; */
+    /* justify-content: center;*/
+    /* align-items: center; */
+    padding-right: 2%;
+}
+
+.rounded-button {
+    background-color: transparent; /* Button background color */
+    color: white;            /* Button text color */    
+    border: 1px solid white; /* Solid border */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;    /* Rounded corners */
+    padding: 10px 15px;     /* Padding inside the button */
+    cursor: pointer;         /* Change cursor on hover */
+    transition: background-color 1s, color 1s; /* Transition effects */
+}
+
+.rounded-button:hover {
+    background-color: white; /* Change background on hover */
+    color: black;            /* Change text color on hover */
+    /* border: 1px ; */
+}
+
+.content {
+    padding: 20px;          /* Main content padding */
+}
+.mainpage {
+    width: 100%;           /* Full width */
+    height: 600px;         /* Customize height */
+    /* background-color: #070816;  */
+    background-image: url('/assets/space.jpg');
+    color: rgb(255, 255, 255); /* Text color */
+    display: flex;        /* Enable flexbox */
+    justify-content: space-between; 
+    align-items: center;  /* Center items vertically */
+    /* padding: 0 20px;      */
+}
